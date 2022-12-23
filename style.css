@@ -75,3 +75,16 @@ nav h3{
     font-size: 30px;
     margin: 10px;
 }
+@media screen and (max-width: 600px)
+{
+    .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .game{
+        justify-content: center;
+    }
+    .info{
+        justify-content: center;
+    }
+}
